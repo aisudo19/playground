@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(void){
-  int x = 3.14;
+  //int x = 3.14;
+  int x = 3;
   printf("xの値は%d", x);
 }
 
