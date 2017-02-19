@@ -10,4 +10,6 @@ int main(void){
 
   z = x + y;
   printf("それらの和は%d\n", z);
+
+  return 0;
 }
