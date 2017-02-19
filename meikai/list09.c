@@ -29,4 +29,6 @@ int main(void)
   if(b > max) max = b;
   if(c > max) max = c;
   printf("3つの整数のうち最大な整数は%d\n", max);
+
+  return 0;
 }
