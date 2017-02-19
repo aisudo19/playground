@@ -13,6 +13,16 @@ int main(void){
   return 0;
 }
 
-/*cast とかね！型変換だとさ。
-第二章まで
+/*cast型変換　第二章まで
+
+0フラグ
+最小フィールド幅
+精度
+変換指定子
+
+やさしい
+list05.c:11:40: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+  printf("xの値はyの%d%%です\n", (double) y / x * 100);
+                    ~~           ^~~~~~~~~~~~~~~~~~~~
+                    %f
 */
