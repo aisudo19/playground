@@ -10,6 +10,8 @@ int main(void)
   int x, y, z;
   printf("３つの整数を,で区切って入力してください");
   scanf("%d,%d,%d", &x, &y, &z);
+
+  /*
   if(x == y){
     if(x == z){
       printf("三変数は等価です");
@@ -23,6 +25,16 @@ int main(void)
     }else{
       printf("三変数は異なります");
     }
+  }
+  */
+  if(x == y && x == z){
+    printf("三変数は等価です");
+  }
+  else if(x == y || y == z || x == z){
+    printf("二変数が等価です");
+  }
+  else{
+    printf("三変数は異なります");
   }
   return 0;
 }
