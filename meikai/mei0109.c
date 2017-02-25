@@ -1,4 +1,5 @@
-/*直角三角形の表示*/
+/*直角三角形の表示
+値を返さない関数　手続き型*/
 
 #include <stdio.h>
 
@@ -16,7 +17,7 @@ int main(void){
   for(i = 1; i <= len; i++){
     put_chars(' ', len - i);
     put_chars('*', i);
-    putchar('\n');    
+    putchar('\n');
   }
   return 0;
 }
