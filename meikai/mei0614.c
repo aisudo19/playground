@@ -36,7 +36,7 @@ int main (void){
   printf("serch number?");
   scanf("%d", &ky);
 
-  if(idx = serch(vx, ky, NUM) == FAILED){
+  if((idx = serch(vx, ky, NUM)) == FAILED){
     printf("FAILED!");
   }else{
     printf("SUCCEED! NO.%d", idx + 1);
