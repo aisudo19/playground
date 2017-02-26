@@ -3,7 +3,7 @@
 
 #define NUM 5
 
-int max_of(int v[],int n){
+int max_of(const int v[],int n){
   int i;
   int max = v[0];
 
