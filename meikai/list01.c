@@ -2,6 +2,6 @@
 
 int main(void)
 {
-  printf("Hello,ノロウイルスつらいWorld\n");
+  printf("Hello,World\n");
   return 0;
 }
