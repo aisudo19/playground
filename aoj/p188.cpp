@@ -1,9 +1,10 @@
 #include<iostream>
 #include<string>
 #include<cmath>
+
 using namespace std;
 
-int main (){
+main (){
   int a, b, C;
   double S, L, h, d;
   cin >> a >> b >> C;
