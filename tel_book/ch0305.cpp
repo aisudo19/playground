@@ -1,5 +1,4 @@
-#include <iostream>
-
+#include<iostream>
 using namespace std;
 
 struct Card {
@@ -70,7 +69,7 @@ int main(){
   cout << "Stable" << endl;
 
   print(c2,N);
-  if(isStable(c1, ,c2, N)){
+  if(isStable(c1 ,c2 , N)){
     cout << "Stable" << endl;
   } else {
     cout << "Not stable" << endl;
