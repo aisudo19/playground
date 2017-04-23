@@ -39,9 +39,9 @@ void print(struct Card A[], int N){
   cout << endl;
 }
 
-bool isStable(struct Card c1[], struct Card c2[], int N){
+bool isStable(struct Card C1[], struct Card C2[], int N){
   for(int i = 0; i < N; i++){
-    if(c1[i].suit != c2[i].suit){
+    if(C1[i].suit != C2[i].suit){
       return false;
     }
   }
@@ -49,27 +49,27 @@ bool isStable(struct Card c1[], struct Card c2[], int N){
 }
 
 int main(){
-  Card c1[100], c2[100];
+  Card C1[100], C2[100];
   int N;
   char ch;
 
   cin >> N;
   for(int i = 0; i < N; i ++){
-    cin >> c1[i].suit >> c1[i].value;
+    cin >> C1[i].suit >> C1[i].value;
   }
 
   for (int i = 0; i < N; i++){
-    c2[i] = c1[i];
+    C2[i] = C1[i];
   }
 
-  bubble(c1,N);
-  selection(c2, N);
+  bubble(C1,N);
+  selection(C2, N);
 
-  print(c1,N);
+  print(C1,N);
   cout << "Stable" << endl;
 
-  print(c2,N);
-  if(isStable(c1 ,c2 , N)){
+  print(C2,N);
+  if(isStable(C1 ,C2 , N)){
     cout << "Stable" << endl;
   } else {
     cout << "Not stable" << endl;
