@@ -28,7 +28,7 @@ int mani(){
   vector<int> ans;
   int t = 0;
   while(S2.size() > 0){
-    ans.push_back(S2.top().secound);S2.pop();
+    ans.push_back(S2.top().secound);S2.pop();//S2.aをansにpush
   }
   reverse(ans.begin(), ans.end());
   cout << sum << endl;
@@ -42,3 +42,4 @@ int mani(){
 
   return 0;
 }
+//stack.first
