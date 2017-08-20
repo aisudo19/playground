@@ -45,7 +45,7 @@ int main(){
 
 
     int v,d,c,l,r;
-    //v=node番号,d=子供の数,c=子供番号,l=子供名前
+    //v=node番号,d=子供の数(次数degree),c=子供番号,l=子供名前
     for(i=0;i<n;i++){//input行毎動く
         cin>>v>>d;
 
