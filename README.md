@@ -1,6 +1,6 @@
 C/C++　
 - Hello world!
-- prayground
+- playground
 
 【参考】
 - 新・明解C言語
