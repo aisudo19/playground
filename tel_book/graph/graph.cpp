@@ -9,12 +9,13 @@ int main(){
 
     cin>>n;
 
+    //初期化
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {M[i][j]=0;
         }
     }
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i) {//node分ループして隣接行列つくる
         cin>>u>>k;
         u--;//0 origin
         for(int j=0; j<k; j++){
@@ -24,6 +25,7 @@ int main(){
         }
     }
 
+    //出力
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
             if(j)cout<<" ";
