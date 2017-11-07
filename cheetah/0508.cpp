@@ -22,14 +22,14 @@ public:
             if(friends[j][k] == 'Y'
                && friends[k][i] == 'Y'){
                  cnt++;//jは友達の友達
-                 break:
+                 break;
             }
           }
         }
       }
 
 
-      ans = Math.max(ans, cnt)//最大のiさんをansに代入
+      ans = Math.max(ans, cnt);//最大のiさんをansに代入
     }
     return ans;
   }
